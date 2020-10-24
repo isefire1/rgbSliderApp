@@ -70,22 +70,22 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="wmQ-3f-NAy">
+                            <slider opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="wmQ-3f-NAy">
                                 <rect key="frame" x="113.66666666666667" y="293" width="245.33333333333331" height="31"/>
                                 <connections>
-                                    <action selector="rgbSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="OTs-sA-aln"/>
+                                    <action selector="rgbSliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="RMb-Eo-Zir"/>
                                 </connections>
                             </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="B0a-mH-89H">
+                            <slider opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="B0a-mH-89H">
                                 <rect key="frame" x="113.66666666666667" y="331" width="245.33333333333331" height="31"/>
                                 <connections>
-                                    <action selector="rgbSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="1Ds-cR-6cj"/>
+                                    <action selector="rgbSliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="zDt-1K-U6P"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="rUl-mJ-RK5">
                                 <rect key="frame" x="113.66666666666667" y="255" width="245.33333333333331" height="31"/>
                                 <connections>
-                                    <action selector="rgbSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="rHX-Dq-s8I"/>
+                                    <action selector="rgbSliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="mAF-sd-H6K"/>
                                 </connections>
                             </slider>
                         </subviews>
